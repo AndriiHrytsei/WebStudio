@@ -172,12 +172,12 @@ body{
     font-weight: 700px;
 }
 /* WHAT WE DO LIST */
-.what_we_do .list{
+.what_we_do_list{
     display: flex;
     flex-direction: row;
     list-style: none;
     justify-content: center;
 }
-.what_we_do .list li{
+.what_we_do_list li{
     margin-right: 40px;
 }
