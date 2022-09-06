@@ -98,6 +98,7 @@ body{
     text-align: center;
     background-image: url(./ws_images/background_img.png);
     background-blend-mode:darken;
+    background-color: rgba(0, 0, 0, 0.452);
     width: 1600px;
     height: 600px;
     font-family: "Roboto";
