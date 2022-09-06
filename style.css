@@ -91,7 +91,7 @@ body{
 }
 /* BACKGROUND */
 .main-background{
-    background-image: url(../webstudio/ws_images/background_img.png);
+    background-image: url(./ws_images/background_img.png);
     width: 1600px;
     height: 600px;
     font-family: "Roboto";
