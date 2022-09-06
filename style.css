@@ -97,8 +97,8 @@ body{
     align-items: center;
     text-align: center;
     background-image: url(./ws_images/background_img.png);
-    background-blend-mode:darken;
-    background-color: rgba(0, 0, 0, 0.452);
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.6);
     width: 1600px;
     height: 600px;
     font-family: "Roboto";
@@ -134,10 +134,14 @@ body{
     justify-content: center;
     margin-top: 50px;
 }
-/* INFO TABLE */
-.info_table { 
-    border-collapse:separate;
-    border-spacing: 50px;
+/* INFO LIST */
+.info_list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.info_list li{
+    margin-right: 40px;
 }
 /* INFO HEADING */
 .info_heading{
@@ -167,9 +171,13 @@ body{
     text-align: center;
     font-weight: 700px;
 }
-/* WHAT WE DO TABLE */
-.what_we_do .table{
-    margin-left: 150px;
-    border-collapse: separate;
-    border-spacing:50px ;
+/* WHAT WE DO LIST */
+.what_we_do .list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+}
+.what_we_do .list li{
+    margin-right: 40px;
 }
