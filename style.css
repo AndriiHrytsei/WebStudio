@@ -22,15 +22,15 @@ body{
 }
 
 /* NAVIGATION */
-.current_page{
-    color: #2196F3;
-}
 
 .navitem{
     text-decoration: none;
     font-size: 15px;
     color: #000;
     font-family: "Roboto";
+}
+.current_page{
+    color: #2196F3;
 }
 .page-header{
     height: 80px;
