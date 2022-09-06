@@ -28,7 +28,7 @@ body{
 
 .navitem{
     text-decoration: none;
-    font-size: 12px;
+    font-size: 15px;
     color: #000;
     font-family: "Roboto";
 }
@@ -71,7 +71,7 @@ body{
 /* CONTACTS */
 .contacts_item{
     text-decoration: none;
-    font-size: 12px;
+    font-size: 15px;
     color: #000;
     font-family: "Roboto";
 }
@@ -87,10 +87,15 @@ body{
 }
 .navigation a:active,
 .contacts a:active{
-    font-size: 11px;
+    font-size: 14px;
 }
 /* BACKGROUND */
 .main-background{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     background-image: url(./ws_images/background_img.png);
     width: 1600px;
     height: 600px;
