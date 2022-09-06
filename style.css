@@ -1,5 +1,7 @@
 /* GENERAL */
-
+html{
+    zoom: 94%;
+}
 h1,
 h2,
 h3,
@@ -29,9 +31,7 @@ body{
     color: #000;
     font-family: "Roboto";
 }
-.current_page{
-    color: #2196F3;
-}
+
 .page-header{
     height: 80px;
     border-bottom:1px solid #ececee ;
@@ -107,7 +107,7 @@ body{
 /* BACKGROUND-HEADING */
 
 .background-heading{
-    
+    text-transform: uppercase;
     margin-bottom: 40px;
     color: #fff;
     font-family: "Roboto";
@@ -178,7 +178,8 @@ body{
     flex-direction: row;
     list-style: none;
     justify-content: center;
+    margin-left: 60px;
 }
 .what_we_do_list li{
-    margin-right: 40px;
+    margin-right: 75px;
 }
