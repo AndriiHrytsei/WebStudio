@@ -156,7 +156,6 @@ body {
     display: flex;
     flex-direction: row;
     list-style: none;
-    margin-left: 100px;
 }
 
 .info_list li {
