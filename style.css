@@ -89,8 +89,9 @@ body {
     margin-top: 25px;
 }
 
-.contacts a {
+.contacts_item {
     margin-right: 50px;
+    color: #757575;
 }
 
 .navigation a:hover,
