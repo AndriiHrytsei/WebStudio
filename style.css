@@ -218,3 +218,45 @@ body {
 .what_we_do_list li {
     margin-right: 75px;
 }
+.our_team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1600px;
+    height: 708px;
+    background-color: #F5F4FA;
+}
+.our_team_list{
+    display: flex;
+    list-style: none;
+    margin-right: 130px;
+}
+.our_team_list li{
+    margin-right: 30px;
+}
+.our_team_items{
+    width: 270px;
+    height: 428px;
+    background-color: #fff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.our_team_text1,
+.our_team_text2{
+    text-align: center;
+    font-family: "Roboto";
+}
+.our_team_text1{
+    margin-top:30px;
+    margin-bottom: 10px;
+}
+.our_team_text2{
+    color: #757575;
+    margin: 0;
+}
+.SVGs{
+    display: flex;
+    margin: 30px 32px ;
+}
+
+
