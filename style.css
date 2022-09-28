@@ -65,16 +65,18 @@ body {
     margin-left: 50px;
     font-weight: bold;
     text-decoration: none;
-
+    margin-left: 215px;
+    margin-right: 93px;
 }
 
 .navigation {
-    margin: 25px 250px 0 0;
-    ;
+    margin: 25px 335px 0 0;
+    
 }
 
 .navigation a {
-    margin-right: 100px;
+    margin-right: 54px;
+    color: #212121;
 }
 
 /* CONTACTS */
@@ -91,6 +93,7 @@ body {
 
 .contacts_item {
     margin-right: 50px;
+    margin-bottom: 32px;
     color: #757575;
 }
 
