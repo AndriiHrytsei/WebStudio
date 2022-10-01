@@ -236,6 +236,7 @@ a {
     width: 1600px;
     height: 708px;
     background-color: #F5F4FA;
+    margin-top: 94px;
 }
 
 .our_team_list {
@@ -278,24 +279,24 @@ a {
 }
 
 /* INSTAGRAM-ICON */
-.icon-instagram .path1:before {
+.icon-instagram .path1inst:before {
     content: "\e908";
     color: #fff;
 }
 
-.icon-instagram .path2:before {
+.icon-instagram .path2inst:before {
     content: "\e909";
     color: #afb1b8;
     margin-left: -1em;
 }
 
-.icon-instagram .path3:before {
+.icon-instagram .path3inst:before {
     content: "\e90a";
     color: #afb1b8;
     margin-left: -1em;
 }
 
-.icon-instagram .path4:before {
+.icon-instagram .path4inst:before {
     content: "\e90b";
     color: #afb1b8;
     margin-left: -1em;
@@ -304,22 +305,22 @@ a {
 .icon-instagram {
     font-size: 44px;
 }
-a:hover .icon-instagram .path1:before{
-    color: #2196F3;
+.instagram_link:hover .icon-instagram .path1inst:before{
+    color:#2196F3;
 }
-a:hover .icon-instagram .path2:before,
-a:hover .icon-instagram .path3:before,
-a:hover .icon-instagram .path4:before{
+.instagram_link:hover .icon-instagram .path2inst:before,
+.instagram_link:hover .icon-instagram .path3inst:before,
+.instagram_link:hover .icon-instagram .path4inst:before{
     color: #fff;
 }
 
 /* TWITTER-ICON */
-.icon-twitter .path1:before {
+.icon-twitter .path1twt:before {
     content: "\e900";
     color: rgb(255, 255, 255);
 }
 
-.icon-twitter .path2:before {
+.icon-twitter .path2twt:before {
     content: "\e901";
     margin-left: -1em;
     color: rgb(175, 177, 184);
@@ -328,16 +329,19 @@ a:hover .icon-instagram .path4:before{
 .icon-twitter {
     font-size: 44px;
 }
-a:hover .icon-twitter .path1:before{
+.twitter_link:hover .path1twt:before{
     color: #2196F3;
 }
+.twitter_link:hover .path2twt:before{
+    color: #fff;
+}
 /* FACEBOOK-ICON */
-.icon-facebook .path1:before {
+.icon-facebook .path1fb:before {
     content: "\e902";
     color: rgb(255, 255, 255);
 }
 
-.icon-facebook .path2:before {
+.icon-facebook .path2fb:before {
     content: "\e903";
     margin-left: -1em;
     color: rgb(175, 177, 184);
@@ -347,25 +351,31 @@ a:hover .icon-twitter .path1:before{
     font-size: 44px;
 }
 
+.facebook_link:hover .path1fb:before{
+    color: #2196F3;
+}
+.facebook_link:hover .path2fb:before{
+    color: #fff;
+}
 /* IN-ICON */
-.icon-in .path1:before {
+.icon-in .path1in:before {
     content: "\e904";
     color: rgb(255, 255, 255);
 }
 
-.icon-in .path2:before {
+.icon-in .path2in:before {
     content: "\e905";
     margin-left: -1em;
     color: rgb(175, 177, 184);
 }
 
-.icon-in .path3:before {
+.icon-in .path3in:before {
     content: "\e906";
     margin-left: -1em;
     color: rgb(175, 177, 184);
 }
 
-.icon-in .path4:before {
+.icon-in .path4in:before {
     content: "\e907";
     margin-left: -1em;
     color: rgb(175, 177, 184);
@@ -373,4 +383,12 @@ a:hover .icon-twitter .path1:before{
 
 .icon-in {
     font-size: 44px;
+}
+.in_link:hover .path1in:before{
+    color: #2196F3;
+}
+.in_link:hover .path2in:before,
+.in_link:hover .path3in:before,
+.in_link:hover .path4in:before{
+    color: #fff;
 }
