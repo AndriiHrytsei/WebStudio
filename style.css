@@ -234,7 +234,6 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 1600px;
     height: 708px;
     background-color: #F5F4FA;
     margin-top: 94px;
@@ -451,5 +450,65 @@ a {
 }
 .clients_list_item a:hover span:before{
     border: 1px solid #2196F3;
+    color: #2196F3;
+}
+footer{
+    height: 252px;
+    background-color: #2F303A;
+    margin-top: 94px;
+}
+.footer_box{
+    top:60px;
+    left: 215px;
+    position: relative;
+    display: flex;
+    align-content: center;
+}
+.adress{
+    margin-right: 70px;
+}
+.adress ul{
+    position: relative;
+    right: 40px;
+    list-style: none;
+}
+.footer_logo .studio{
+    color: #fff;
+}
+.adress ul li{
+    line-height: 29px;
+    font-size: 14px;
+}
+.adress ul li:first-child{
+    color: #fff;
+    font-family: "Roboto";
+
+}
+.adress ul li:nth-child(2),
+.adress ul li:nth-child(3){
+    color: #FFFFFF99;
+    font-family: "Roboto";
+}
+.SVGs_footer{
+    margin-top: 20px;
+}
+.SVGs_footer a{
+    margin-right: 10px;
+}
+.join_us h2{
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+.join_us .SVGs_footer .icon-instagram .path1inst:before,
+.join_us .SVGs_footer .icon-twitter .path1twt:before,
+.join_us .SVGs_footer .icon-facebook .path1fb:before,
+.join_us .SVGs_footer .icon-in .path1in:before{
+    color: rgba(255, 255, 255, 0.1);
+}
+.join_us .SVGs_footer .icon-instagram:hover .path1inst:before,
+.join_us .SVGs_footer .icon-twitter:hover .path1twt:before,
+.join_us .SVGs_footer .icon-facebook:hover .path1fb:before,
+.join_us .SVGs_footer .icon-in:hover .path1in:before{
     color: #2196F3;
 }
