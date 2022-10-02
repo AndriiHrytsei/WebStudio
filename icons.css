@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?hl4l0f');
-  src:  url('fonts/icomoon.eot?hl4l0f#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?hl4l0f') format('truetype'),
-    url('fonts/icomoon.woff?hl4l0f') format('woff'),
-    url('fonts/icomoon.svg?hl4l0f#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?1m8rst');
+  src:  url('fonts/icomoon.eot?1m8rst#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?1m8rst') format('truetype'),
+    url('fonts/icomoon.woff?1m8rst') format('woff'),
+    url('fonts/icomoon.svg?1m8rst#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,59 +25,83 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-twitter .path1:before {
+.icon-logo-6:before {
+  content: "\e911";
+  color: #afb1b8;
+}
+.icon-logo-1:before {
   content: "\e900";
-  color: rgb(255, 255, 255);
+  color: #afb1b8;
 }
-.icon-twitter .path2:before {
+.icon-logo-2:before {
   content: "\e901";
-  margin-left: -1em;
-  color: rgb(175, 177, 184);
+  color: #afb1b8;
 }
-.icon-facebook .path1:before {
+.icon-logo-3:before {
   content: "\e902";
-  color: rgb(255, 255, 255);
+  color: #afb1b8;
 }
-.icon-facebook .path2:before {
+.icon-logo-4:before {
   content: "\e903";
-  margin-left: -1em;
-  color: rgb(175, 177, 184);
+  color: #afb1b8;;
+}
+.icon-logo-5:before {
+  content: "\e904";
+  color: #afb1b8;
 }
 .icon-in .path1:before {
-  content: "\e904";
+  content: "\e905";
   color: rgb(255, 255, 255);
 }
 .icon-in .path2:before {
-  content: "\e905";
-  margin-left: -1em;
-  color: rgb(175, 177, 184);
-}
-.icon-in .path3:before {
   content: "\e906";
   margin-left: -1em;
   color: rgb(175, 177, 184);
 }
-.icon-in .path4:before {
+.icon-in .path3:before {
   content: "\e907";
   margin-left: -1em;
   color: rgb(175, 177, 184);
 }
-.icon-instagram .path1:before {
+.icon-in .path4:before {
   content: "\e908";
-  color: rgb(255, 255, 255);
-}
-.icon-instagram .path2:before {
-  content: "\e909";
   margin-left: -1em;
   color: rgb(175, 177, 184);
 }
-.icon-instagram .path3:before {
+.icon-facebook .path1:before {
+  content: "\e909";
+  color: rgb(255, 255, 255);
+}
+.icon-facebook .path2:before {
   content: "\e90a";
   margin-left: -1em;
   color: rgb(175, 177, 184);
 }
-.icon-instagram .path4:before {
+.icon-twitter .path1:before {
   content: "\e90b";
+  color: rgb(255, 255, 255);
+}
+.icon-twitter .path2:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(175, 177, 184);
+}
+.icon-instagram .path1:before {
+  content: "\e90d";
+  color: rgb(255, 255, 255);
+}
+.icon-instagram .path2:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(175, 177, 184);
+}
+.icon-instagram .path3:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: rgb(175, 177, 184);
+}
+.icon-instagram .path4:before {
+  content: "\e910";
   margin-left: -1em;
   color: rgb(175, 177, 184);
 }

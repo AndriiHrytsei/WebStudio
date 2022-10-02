@@ -233,12 +233,19 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     width: 1600px;
     height: 708px;
     background-color: #F5F4FA;
     margin-top: 94px;
 }
-
+.our_team h2{
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 36px;
+    margin-bottom: 50px;
+    margin-top: 94px;
+}
 .our_team_list {
     display: flex;
     list-style: none;
@@ -280,27 +287,24 @@ a {
 
 /* INSTAGRAM-ICON */
 .icon-instagram .path1inst:before {
-    content: "\e908";
-    color: #fff;
-}
-
-.icon-instagram .path2inst:before {
-    content: "\e909";
-    color: #afb1b8;
+    content: "\e90d";
+    color: rgb(255, 255, 255);
+  }
+  .icon-instagram .path2inst:before {
+    content: "\e90e";
     margin-left: -1em;
-}
-
-.icon-instagram .path3inst:before {
-    content: "\e90a";
-    color: #afb1b8;
+    color: rgb(175, 177, 184);
+  }
+  .icon-instagram .path3inst:before {
+    content: "\e90f";
     margin-left: -1em;
-}
-
-.icon-instagram .path4inst:before {
-    content: "\e90b";
-    color: #afb1b8;
+    color: rgb(175, 177, 184);
+  }
+  .icon-instagram .path4inst:before {
+    content: "\e910";
     margin-left: -1em;
-}
+    color: rgb(175, 177, 184);
+  }
 
 .icon-instagram {
     font-size: 44px;
@@ -316,16 +320,14 @@ a {
 
 /* TWITTER-ICON */
 .icon-twitter .path1twt:before {
-    content: "\e900";
+    content: "\e90b";
     color: rgb(255, 255, 255);
-}
-
-.icon-twitter .path2twt:before {
-    content: "\e901";
+  }
+  .icon-twitter .path2twt:before {
+    content: "\e90c";
     margin-left: -1em;
     color: rgb(175, 177, 184);
-}
-
+  }
 .icon-twitter {
     font-size: 44px;
 }
@@ -337,15 +339,14 @@ a {
 }
 /* FACEBOOK-ICON */
 .icon-facebook .path1fb:before {
-    content: "\e902";
+    content: "\e909";
     color: rgb(255, 255, 255);
-}
-
-.icon-facebook .path2fb:before {
-    content: "\e903";
+  }
+  .icon-facebook .path2fb:before {
+    content: "\e90a";
     margin-left: -1em;
     color: rgb(175, 177, 184);
-}
+  }
 
 .icon-facebook {
     font-size: 44px;
@@ -359,27 +360,24 @@ a {
 }
 /* IN-ICON */
 .icon-in .path1in:before {
-    content: "\e904";
-    color: rgb(255, 255, 255);
-}
-
-.icon-in .path2in:before {
     content: "\e905";
-    margin-left: -1em;
-    color: rgb(175, 177, 184);
-}
-
-.icon-in .path3in:before {
+    color: rgb(255, 255, 255);
+  }
+  .icon-in .path2in:before {
     content: "\e906";
     margin-left: -1em;
     color: rgb(175, 177, 184);
-}
-
-.icon-in .path4in:before {
+  }
+  .icon-in .path3in:before {
     content: "\e907";
     margin-left: -1em;
     color: rgb(175, 177, 184);
-}
+  }
+  .icon-in .path4in:before {
+    content: "\e908";
+    margin-left: -1em;
+    color: rgb(175, 177, 184);
+  }
 
 .icon-in {
     font-size: 44px;
@@ -391,4 +389,67 @@ a {
 .in_link:hover .path3in:before,
 .in_link:hover .path4in:before{
     color: #fff;
+}
+
+.clients{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 94px;
+}
+.clients_list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+}
+
+.clients-heading{
+    font-size: 36px;
+    font-family: "Roboto";
+    margin-bottom: 50px;
+}
+/* OUR TEAM ICONS */
+.icon-logo-1:before {
+    content: "\e900";
+    color: #afb1b8;
+    
+}
+.icon-logo-2:before {
+    content: "\e901";
+    color: #afb1b8;
+}
+.icon-logo-3:before {
+    content: "\e902";
+    color: #afb1b8;
+}
+.icon-logo-4:before {
+    content: "\e903";
+    color:#afb1b8;
+}
+.icon-logo-5:before {
+    content: "\e904";
+    color: #afb1b8;
+}
+.icon-logo-6:before {
+    content: "\e911";
+    color: #afb1b8;
+}
+.icon-logo-1:before,
+.icon-logo-2:before,
+.icon-logo-3:before,
+.icon-logo-4:before,
+.icon-logo-5:before,
+.icon-logo-6:before{
+    font-size: 50px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    padding: 20px 62px 20px 63px;
+
+}
+.clients_list_item a:hover span:before{
+    border: 1px solid #2196F3;
+    color: #2196F3;
 }
