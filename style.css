@@ -389,7 +389,7 @@ a {
 .in_link:hover .path4in:before{
     color: #fff;
 }
-
+/* CLIENTS */
 .clients{
     display: flex;
     justify-content: center;
@@ -452,6 +452,7 @@ a {
     border: 1px solid #2196F3;
     color: #2196F3;
 }
+/* FOOTER */
 footer{
     height: 252px;
     background-color: #2F303A;
@@ -498,7 +499,7 @@ footer{
 .join_us h2{
     color: #fff;
     font-family: "Roboto";
-    font-size: 14px;
+    font-size: 18px;
 }
 .join_us .SVGs_footer .icon-instagram .path1inst:before,
 .join_us .SVGs_footer .icon-twitter .path1twt:before,
