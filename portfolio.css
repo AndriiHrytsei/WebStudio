@@ -1,0 +1,152 @@
+/* GENERAL */
+html {
+    zoom: 90%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation,
+.contacts {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    list-style: none;
+}
+
+body {
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+/* NAVIGATION */
+
+.navitem {
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+    font-family: "Roboto";
+}
+
+.page-header {
+    height: 80px;
+    border-bottom: 1px solid #ececee;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.web {
+    color: #2196F3;
+    font-size: 26px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 20px;
+}
+
+.studio {
+    color: #000;
+    font-size: 26px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.logo {
+    margin-top: 20px;
+    margin-left: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 215px;
+    margin-right: 93px;
+}
+
+.navigation {
+    margin: 25px 335px 0 0;
+
+}
+
+.navigation a {
+    margin-right: 54px;
+    color: #212121;
+}
+
+/* CONTACTS */
+.contacts_item {
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+    font-family: "Roboto";
+}
+
+.contacts {
+    margin-top: 25px;
+}
+
+.contacts_item {
+    margin-right: 50px;
+    margin-bottom: 32px;
+    color: #757575;
+}
+
+.navigation a:hover,
+.contacts a:hover {
+    color: #2196F3;
+}
+
+.contacts_item {
+    margin-left: 10px;
+}
+
+.contacts li:hover span:before {
+    color: #2196F3;
+}
+/* MAIN NAVIGATION */
+
+.main_nav{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    margin-top: 94px;
+}
+.main_nav_item a{
+    padding: 6px 22px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    color: #000;
+    margin-right: 10px;
+}
+
+.main_nav_item a:hover{
+    color: #fff;
+    background-color: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.table{
+    width: 1160px;
+    height: 1272px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.table_item{
+    width: 370px;
+    height: 404px;
+    border: 1px solid;
+}
