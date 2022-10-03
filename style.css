@@ -108,10 +108,6 @@ a {
     color: #2196F3;
 }
 
-.navigation a:active,
-.contacts a:active {
-    font-size: 14px;
-}
 
 /* BACKGROUND */
 .main-background {
@@ -150,9 +146,6 @@ a {
     text-decoration: none;
 }
 
-.background-button:active {
-    border: 1px;
-}
 
 /* INFO */
 .info {
