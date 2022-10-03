@@ -113,8 +113,9 @@ a {
     color: #2196F3;
 }
 
-.contacts_item {
-    margin-left: 10px;
+.icon-email,
+.icon-smartphone {
+    margin-right: 10px;
 }
 
 .contacts li:hover span:before {
