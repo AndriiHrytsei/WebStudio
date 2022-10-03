@@ -80,10 +80,15 @@ a {
 
 }
 
-.navigation a {
+.navitem {
     margin-right: 54px;
     color: #212121;
 }
+
+.active{
+    color: #2196F3;
+}
+
 
 /* CONTACTS */
 .contacts_item {
