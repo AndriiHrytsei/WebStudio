@@ -166,7 +166,7 @@ a{
     border: 1px solid #EEEEEE;;
     margin-right: 30px;
     transition-property: box-shadow;
-    transition-duration: 200ms;
+    transition-duration: 300ms;
     transition-timing-function: linear;
     transition-delay: none;
 }
