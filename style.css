@@ -32,8 +32,7 @@ a {
     padding: 0;
 }
 
-/* NAVIGATION */
-
+/* HEADER */
 .navitem {
     text-decoration: none;
     font-size: 15px;
@@ -54,14 +53,14 @@ a {
 
 .web {
     color: #2196F3;
-    font-size: 26px;
+    font-size: 24px;
     font-family: 'Raleway', sans-serif;
     margin-top: 20px;
 }
 
 .studio {
     color: #000;
-    font-size: 26px;
+    font-size: 24px;
     font-family: 'Raleway', sans-serif;
 
 }
@@ -122,6 +121,11 @@ a {
     color: #2196F3;
 }
 
+.icon-menu_link{
+    display: none;
+    color: #000;
+}
+
 /* BACKGROUND */
 .main-background {
     display: flex;
@@ -133,13 +137,16 @@ a {
     background-blend-mode: darken;
     background-color: rgba(0, 0, 0, 0.5);
     width: 1600px;
-    height: 600px;
     font-family: "Roboto";
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 /* BACKGROUND-HEADING */
 
 .background-heading {
+    margin-top: 200px;
     text-transform: uppercase;
     margin-bottom: 40px;
     color: #fff;
@@ -157,14 +164,15 @@ a {
     color: #ffffff;
     box-shadow: 0px 4px 4px #00000026;
     text-decoration: none;
+    margin-bottom: 200px;
 }
-
-
 /* INFO */
 .info {
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    margin-left: 215px;
+    margin-right: 215px;
 }
 
 /* INFO LIST */
@@ -179,6 +187,7 @@ a {
 }
 
 /* INFO HEADING */
+
 .info_heading {
     font-size: 14px;
     font-family: "Roboto";
@@ -195,370 +204,64 @@ a {
 
 }
 
-/* INFO BACKGRPONT */
+/* INFO BACKGRROUND */
 .svg_bg {
     background-color: #F5F4FA;
     width: 270px;
     height: 120px;
-    border: 0 solid #F5F4FA;
     border-radius: 4px;
     margin-bottom: 30px;
 }
-
-/* WHAT WE DO */
-.what_we_do {
-    display: flex;
-    flex-direction: column;
-    margin-top: 40px;
+.icon-antenna-1,
+.icon-astronaut-1,
+.icon-clock-1,
+.icon-diagram-1{
+  position: relative;
+  top: 25px;
+  left: 100px;
+  font-size: 60px;
 }
 
-/* WHAT WE DO HEADING */
-.what_we_do .heading {
-    text-transform: uppercase;
-    font-family: "Roboto";
-    text-align: center;
-    font-weight: 700px;
-    margin-bottom: 30px;
-}
+@media screen and (max-width: 768px) and (min-width: 480px) {  
+    .menu{
+        display: none;
+    }
+    .contacts{
+        display: none;
+    }
+    .logo{
+        position: relative;
+        right: 13rem;
+    }
+    .icon-menu_link{
+        display: block;
+        position: relative;
+        top: 1.7rem;
+        right: 1.4rem;
+    }
+    .main-background{
+        max-width: 100%;
+    }
+    .background-heading{
+        font-size: 26px;
+        margin-top: 118px;
+    }
+    .background-button{
+        margin-bottom: 118px;
+        padding: 10px 24px;
+    }
+    .info_list{
+        flex-direction: column;
+    }
+    .svg_bg{
+        width: 270px;
+    }
+    .icon-antenna-1,
+    .icon-astronaut-1,
+    .icon-clock-1,
+    .icon-diagram-1{
+        position: relative;
 
-/* WHAT WE DO LIST */
-.what_we_do_list {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    justify-content: center;
-    margin-left: 50px;
-}
-
-.what_we_do_list li {
-    margin-right: 75px;
-}
-
-/* OUR TEAM */
-.our_team {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 708px;
-    background-color: #F5F4FA;
-    margin-top: 94px;
-}
-
-.our_team h2 {
-    text-align: center;
-    font-family: "Roboto";
-    font-size: 36px;
-    margin-bottom: 50px;
-    margin-top: 94px;
-}
-
-.our_team_list {
-    display: flex;
-    list-style: none;
-    margin-right: 50px;
-}
-
-.our_team_list li {
-    margin-right: 30px;
-}
-
-.our_team_items {
-    width: 270px;
-    height: 428px;
-    background-color: #fff;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-}
-
-.our_team_text1,
-.our_team_text2 {
-    text-align: center;
-    font-family: "Roboto";
-}
-
-.our_team_text1 {
-    margin-top: 30px;
-    margin-bottom: 10px;
-}
-
-.our_team_text2 {
-    color: #757575;
-    margin: 0;
-}
-
-.SVGs {
-    display: flex;
-    margin: 30px 32px 35px 45px;
-}
-
-/* INSTAGRAM-ICON */
-.icon-instagram .path1inst:before {
-    content: "\e90d";
-    color: rgb(255, 255, 255);
-}
-
-.icon-instagram .path2inst:before {
-    content: "\e90e";
-    margin-left: -1em;
-    color: rgb(175, 177, 184);
-}
-
-.icon-instagram .path3inst:before {
-    content: "\e90f";
-    margin-left: -1em;
-    color: rgb(175, 177, 184);
-}
-
-.icon-instagram .path4inst:before {
-    content: "\e910";
-    margin-left: -1em;
-    color: rgb(175, 177, 184);
-}
-
-.icon-instagram {
-    font-size: 44px;
-}
-
-.instagram_link:hover .icon-instagram .path1inst:before {
-    color: #2196F3;
-}
-
-.instagram_link:hover .icon-instagram .path2inst:before,
-.instagram_link:hover .icon-instagram .path3inst:before,
-.instagram_link:hover .icon-instagram .path4inst:before {
-    color: #fff;
-}
-
-/* TWITTER-ICON */
-.icon-twitter .path1twt:before {
-    content: "\e90b";
-    color: rgb(255, 255, 255);
-}
-
-.icon-twitter .path2twt:before {
-    content: "\e90c";
-    margin-left: -1em;
-    color: rgb(175, 177, 184);
-}
-
-.icon-twitter {
-    font-size: 44px;
-}
-
-.twitter_link:hover .path1twt:before {
-    color: #2196F3;
-}
-
-.twitter_link:hover .path2twt:before {
-    color: #fff;
-}
-
-/* FACEBOOK-ICON */
-.icon-facebook .path1fb:before {
-    content: "\e909";
-    color: rgb(255, 255, 255);
-}
-
-.icon-facebook .path2fb:before {
-    content: "\e90a";
-    margin-left: -1em;
-    color: rgb(175, 177, 184);
-}
-
-.icon-facebook {
-    font-size: 44px;
-}
-
-.facebook_link:hover .path1fb:before {
-    color: #2196F3;
-}
-
-.facebook_link:hover .path2fb:before {
-    color: #fff;
-}
-
-/* IN-ICON */
-.icon-in .path1in:before {
-    content: "\e905";
-    color: rgb(255, 255, 255);
-}
-
-.icon-in .path2in:before {
-    content: "\e906";
-    margin-left: -1em;
-    color: rgb(175, 177, 184);
-}
-
-.icon-in .path3in:before {
-    content: "\e907";
-    margin-left: -1em;
-    color: rgb(175, 177, 184);
-}
-
-.icon-in .path4in:before {
-    content: "\e908";
-    margin-left: -1em;
-    color: rgb(175, 177, 184);
-}
-
-.icon-in {
-    font-size: 44px;
-}
-
-.in_link:hover .path1in:before {
-    color: #2196F3;
-}
-
-.in_link:hover .path2in:before,
-.in_link:hover .path3in:before,
-.in_link:hover .path4in:before {
-    color: #fff;
-}
-
-/* CLIENTS */
-.clients {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 94px;
-}
-
-.clients_list {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    list-style: none;
-    gap: 50px;
-}
-
-.clients-heading {
-    font-size: 36px;
-    font-family: "Roboto";
-    margin-bottom: 50px;
-}
-
-/* OUR TEAM ICONS */
-.icon-logo-1:before {
-    content: "\e900";
-    color: #afb1b8;
-
-}
-
-.icon-logo-2:before {
-    content: "\e901";
-    color: #afb1b8;
-}
-
-.icon-logo-3:before {
-    content: "\e902";
-    color: #afb1b8;
-}
-
-.icon-logo-4:before {
-    content: "\e903";
-    color: #afb1b8;
-}
-
-.icon-logo-5:before {
-    content: "\e904";
-    color: #afb1b8;
-}
-
-.icon-logo-6:before {
-    content: "\e911";
-    color: #afb1b8;
-}
-
-.icon-logo-1:before,
-.icon-logo-2:before,
-.icon-logo-3:before,
-.icon-logo-4:before,
-.icon-logo-5:before,
-.icon-logo-6:before {
-    font-size: 50px;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    padding: 20px 62px 20px 63px;
-
-}
-
-.clients_list_item a:hover span:before {
-    border: 1px solid #2196F3;
-    color: #2196F3;
-}
-
-/* FOOTER */
-footer {
-    height: 252px;
-    background-color: #2F303A;
-    margin-top: 94px;
-}
-
-.footer_box {
-    top: 60px;
-    left: 215px;
-    position: relative;
-    display: flex;
-    align-content: center;
-}
-
-.adress {
-    margin-right: 70px;
-}
-
-.adress ul {
-    position: relative;
-    right: 40px;
-    list-style: none;
-}
-
-.footer_logo .studio {
-    color: #fff;
-}
-
-.adress ul li {
-    line-height: 29px;
-    font-size: 14px;
-}
-
-.adress ul li:first-child {
-    color: #fff;
-    font-family: "Roboto";
-
-}
-
-.adress ul li:nth-child(2),
-.adress ul li:nth-child(3) {
-    color: #FFFFFF99;
-    font-family: "Roboto";
-}
-
-.SVGs_footer {
-    margin-top: 20px;
-}
-
-.SVGs_footer a {
-    margin-right: 10px;
-}
-
-.join_us h2 {
-    color: #fff;
-    font-family: "Roboto";
-    font-size: 18px;
-}
-
-.join_us .SVGs_footer .icon-instagram .path1inst:before,
-.join_us .SVGs_footer .icon-twitter .path1twt:before,
-.join_us .SVGs_footer .icon-facebook .path1fb:before,
-.join_us .SVGs_footer .icon-in .path1in:before {
-    color: rgba(255, 255, 255, 0.1);
-}
-
-.join_us .SVGs_footer .icon-instagram:hover .path1inst:before,
-.join_us .SVGs_footer .icon-twitter:hover .path1twt:before,
-.join_us .SVGs_footer .icon-facebook:hover .path1fb:before,
-.join_us .SVGs_footer .icon-in:hover .path1in:before {
-    color: #2196F3;
+    }
+    
 }
