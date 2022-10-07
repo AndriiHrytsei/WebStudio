@@ -253,7 +253,6 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 708px;
     background-color: #F5F4FA;
     margin-top: 94px;
 }
@@ -270,6 +269,7 @@ a {
     display: flex;
     list-style: none;
     margin-right: 50px;
+    margin-bottom: 94px;
 }
 
 .our_team_list li {
@@ -282,6 +282,11 @@ a {
     background-color: #fff;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+}
+
+.our_team_items img{
+    width:270px; 
+    height:260px;
 }
 
 .our_team_text1,
@@ -470,6 +475,59 @@ a {
     .what_we_do{
         display: none;
     }
+    .our_team_list{
+        flex-direction: column;
+        margin-left: 40px;
+    }
+    .our_team_items{
+        margin-bottom: 30px;
+        width: 450px;
+        height: 622px;
+
+    }
+    .our_team_items img{
+        width: 450px;
+        height: 460px;
+
+    }
+    .our_team_items p{
+        line-height: 19px;
+        font-size: 16px;
+    }
+    .SVGs{
+        margin-left: 122px;
+        margin:16px 122px 24px
+    }
+    .instagram_link:active .icon-instagram .path2inst:before,
+    .instagram_link:active .icon-instagram .path3inst:before,
+    .instagram_link:active .icon-instagram .path4inst:before {
+        color: #fff;
+    }
+    .twitter_link:active .path1twt:before {
+        color: #2196F3;
+    }
+    
+    .twitter_link:active .path2twt:before {
+        color: #fff;
+    }
+    .facebook_link:active .path1fb:before {
+        color: #2196F3;
+    }
+    
+    .facebook_link:active .path2fb:before {
+        color: #fff;
+    }
+    .in_link:active .path1in:before {
+        color: #2196F3;
+    }
+    
+    .in_link:active .path2in:before,
+    .in_link:active .path3in:before,
+    .in_link:active .path4in:before {
+        color: #fff;
+    }
+
+    
     
   
     
