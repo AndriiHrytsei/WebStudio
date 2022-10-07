@@ -276,12 +276,3 @@
   margin-left: -1em;
   color: rgb(33, 33, 33);
 }
-.icon-antenna-1,
-.icon-astronaut-1,
-.icon-clock-1,
-.icon-diagram-1{
-  position: relative;
-  top: 25px;
-  left: 100px;
-  font-size: 60px;
-}
