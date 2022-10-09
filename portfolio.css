@@ -440,8 +440,6 @@ footer {
         margin-right: 104px;
     }
     .table{
-        justify-content: center;
-        align-items: center;
         width: 450px;
         height: 294px;
     }
@@ -450,13 +448,17 @@ footer {
         height: 294px;
     }
     .table_item{
-        right: 170px;
+        right: 230px;
         width: 450px;
         height: 404px;
         margin-bottom: 30px;
     }
     .transperent{
         width: 403px;
+    }
+    .table_sect{
+        display: flex;
+        justify-content: center;
     }
     footer{
         position: relative;
