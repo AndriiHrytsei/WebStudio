@@ -760,6 +760,7 @@ footer {
         border-radius: 4px;
         background-color: #2F303A;
         color: #FFFFFF99;
+        padding-left: 16px;
     }
     .subsciption button{
         position: relative;

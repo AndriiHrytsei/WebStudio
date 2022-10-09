@@ -439,6 +439,12 @@ footer {
     .main_nav_item:nth-child(5){
         margin-right: 104px;
     }
+    .main_nav_sect{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        right: 70px;
+    }
     .table{
         width: 450px;
         height: 294px;
@@ -523,6 +529,7 @@ footer {
         border-radius: 4px;
         background-color: #2F303A;
         color: #FFFFFF99;
+        padding-left: 16px;
     }
     .subsciption button{
         position: relative;
