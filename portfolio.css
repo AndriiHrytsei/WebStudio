@@ -404,3 +404,25 @@ footer {
 .in_link:hover .path4in:before {
     color: #fff;
 }
+.icon-menu_link{
+    display: none;
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .menu{
+        display: none;
+    }
+    .contacts{
+        display: none;
+    }
+    .logo{
+        position: relative;
+        right: 13rem;
+    }
+    .icon-menu_link{
+        color: #000;
+        display: block;
+        position: relative;
+        top: 1.7rem;
+        right: 1.4rem;
+    }
+}
