@@ -136,7 +136,7 @@ a {
     background-image: url(./ws_images/background_img.png);
     background-blend-mode: darken;
     background-color: rgba(0, 0, 0, 0.5);
-    width: 1600px;
+    width: 100%;
     font-family: "Roboto";
     background-repeat: no-repeat;
     background-size: cover;
