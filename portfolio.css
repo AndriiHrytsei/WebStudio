@@ -465,6 +465,9 @@ footer {
         display: flex;
         justify-content: center;
     }
+    .table_item:active .transperent{
+        opacity: 1;
+    }
     footer{
         position: relative;
         width: 100%;
