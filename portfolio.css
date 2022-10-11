@@ -411,7 +411,7 @@ footer {
 .subsciption{
     display: none;
 }
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
     .menu{
         display: none;
     }
@@ -557,4 +557,159 @@ footer {
     }
     
     
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .container{
+        justify-content: space-evenly;
+    }
+    .logo{
+        position: relative;
+        left: 5.5rem;    
+    }
+    .web{
+        color: #000;
+    }
+    .footer_logo .studio{
+        color: #000;
+    }
+    .navigation{
+        justify-content: space-evenly;
+        margin-left: 90px;
+    }
+    .contacts{
+        text-align: center;
+        position: relative;
+        right: 272px;
+        flex-direction: column;
+        position: relative;
+        bottom: 15px;    
+    }
+    .contacts_item{
+        line-height: 30px;
+    }
+    .main_nav_sect{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .table{
+        justify-content: center;
+        left: 20px;
+        width: 100%;
+        height: 2400px;
+    }
+    
+    .table_item{
+        width: 354px;
+        height: 440px;
+        margin-bottom: 30px;
+    }
+    .table_item img{
+        width: 354px;
+        height: 294px;
+    }
+    .transperent{
+        width: 307px;
+    }
+    .table_item:last-child{
+        position: relative;
+        right: 193px;
+    }
+    .table_item:active .transperent{
+        opacity: 1;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        height: 463px;
+    }
+    .footer_box{
+        width: 100%;
+        height: 400px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        right: 300px;
+    }
+    .adress{
+        position: relative;
+        right: 80px;
+        width: 425px;
+    }
+    .adress h2{
+        position: relative;
+        right: 25px;
+        
+    }
+    .adress ul{
+        text-align: center;
+        right: 200px;
+        margin-bottom: 60px;
+    }
+    .join_us{
+        text-align: center;
+        position: relative;
+        right: 250px;
+    }
+    .SVGs_footer{
+        position: relative;
+        left: 5px;
+    }
+    .subsciption{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 60px;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        line-height: 50px;
+        bottom: 80px;
+        right: 220px;
+    }
+    .subsciption h2{
+        margin-left: 30px;
+        font-family: 'Roboto';
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        font-size: 14px;
+    }
+
+    .subsciption input{
+        position: relative;    
+        left: 15px;
+        width: 450px;
+        height: 50px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 4px;
+        background-color: #2F303A;
+        color: #FFFFFF99;
+        padding-left: 16px;
+    }
+    .subsciption button{
+        position: relative;
+        left: 140px;
+        width: 200px;
+        height: 50px;
+        background: #2196F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 16px;
+        color: #fff;
+        margin-top: 20px;
+        padding-bottom: 10px;
+        border: solid #2196F3;
+    }
+    .icon-icon-send{
+        position: relative;
+        top: 5px;
+        left: 12px;
+        font-size: 24px;
+    }
 }

@@ -144,6 +144,7 @@ a {
 /* BACKGROUND-HEADING */
 
 .background-heading {
+    width: 600px;
     margin-top: 200px;
     text-transform: uppercase;
     text-align: center;
@@ -614,6 +615,7 @@ footer {
         align-items: center;
     }
     .background-heading{
+        width: 300px;
         font-size: 26px;
         margin-top: 118px;
     }
