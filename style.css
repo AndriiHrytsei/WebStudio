@@ -831,6 +831,7 @@ footer {
     .background-heading{
         font-size: 30px;
         line-height: 50px;
+        width: 350px;
     }
     .background-button{
         padding: 18px 24px;
