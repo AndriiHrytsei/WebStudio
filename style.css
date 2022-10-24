@@ -130,22 +130,20 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
     background-image: url(./ws_images/background_img.png);
     background-blend-mode: darken;
     background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
     font-family: "Roboto";
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 600px;
 }
 
 /* BACKGROUND-HEADING */
 
 .background-heading {
     width: 600px;
-    margin-top: 200px;
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 40px;
@@ -164,7 +162,6 @@ a {
     color: #ffffff;
     box-shadow: 0px 4px 4px #00000026;
     text-decoration: none;
-    margin-bottom: 200px;
 }
 /* INFO */
 .info {
@@ -179,6 +176,7 @@ a {
 .info_list {
     display: flex;
     flex-direction: row;
+    align-items: center;
     list-style: none;
 }
 
@@ -605,29 +603,25 @@ footer {
         right: 13rem;
     }
     .icon-menu_link{
-        display: block;
-        position: relative;
-        top: 1.7rem;
-        right: 1.4rem;
+        display: flex;
+        align-self: center;
+        justify-self: flex-end;
+        margin-top: 25px;
     }
     .main-background{
-        justify-content: center;
-        align-items: center;
+        height: 400px;
     }
     .background-heading{
         width: 300px;
         font-size: 26px;
-        margin-top: 118px;
+        margin-bottom: 25px;
     }
     .background-button{
-        margin-bottom: 118px;
         padding: 10px 24px;
-    }
-    .info{
-        justify-content: center;
+        margin: 0;
     }
     .info_list{
-        flex-direction: column;
+        flex-wrap: wrap;
     }
     .info_list li{
         margin-bottom: 30px ;
@@ -640,7 +634,7 @@ footer {
     }
     .our_team_list{
         flex-direction: column;
-        margin-left: 40px;
+        margin-left:50px;
     }
     .our_team_items{
         margin-bottom: 30px;
