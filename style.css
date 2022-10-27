@@ -643,11 +643,9 @@ a {
     .menu{
         display: block;
     }
-    .navigation a:focus,
-    .contacts a:focus {
+    .navitem:active{
         color: #2196F3;
     }
-
     .contacts{
         display: block;
     }
@@ -661,11 +659,11 @@ a {
     .web {
         color: #000;
     }
-
+    
     .footer_logo .studio {
         color: #000;
     }
-
+    
     .navigation {
         display: flex;
         margin: 25px 260px 0px 100px;
@@ -675,14 +673,14 @@ a {
         margin-right: 54px;
         color: #212121;
     }
-
+    
     .contacts {
         display: flex;
         position: relative;
         right: 200px;
         flex-direction: column;
     }
-
+    
     .contacts_item {
         line-height: 30px;
         text-decoration: none;
@@ -692,11 +690,18 @@ a {
         margin-bottom: 32px;
         color: #757575;
     }
-
+    
     .contacts_item span:before{
         margin-right: 10px;
     }
+    .contacts a:active{
+        color: #2196F3;
 
+    }
+    .contacts li:active span:before {
+        color: #2196F3;
+    }
+    
     .main-background {
         height: 400px;
     }
@@ -749,10 +754,6 @@ a {
 }
 
 @media screen and (min-width: 1440px) {
-    body{
-        margin: 0;
-        padding: 0;
-    }
     .web{
         color: #2196F3;
     }
@@ -762,6 +763,16 @@ a {
     .menu{
         margin-right: 110px;
         margin-left: 100px;
+    }
+    .navitem:hover{
+        color: #2196F3;
+    }
+    .contacts a:hover{
+        color: #2196F3;
+
+    }
+    .contacts li:hover span:before {
+        color: #2196F3;
     }
     .contacts{
         flex-direction: row;
