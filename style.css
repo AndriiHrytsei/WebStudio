@@ -500,6 +500,7 @@ a {
     footer {
         background-color: #2F303A;
         margin-top: 94px;
+        width: 100%;
     }
     
     .footer_box {
@@ -761,7 +762,7 @@ a {
         color: #FFFFFF;
     }
     .menu{
-        margin-right: 110px;
+        margin-right: 90px;
         margin-left: 100px;
     }
     .navitem:hover{
