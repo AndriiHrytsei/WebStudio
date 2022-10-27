@@ -24,6 +24,7 @@ p {
 
 body {
     margin: 0;
+    padding: 0;
 }
 
 a {
@@ -744,5 +745,54 @@ a {
     }
     .subsciption input{
         width: 450px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .web{
+        color: #2196F3;
+    }
+    .footer_logo .studio{
+        color: #FFFFFF;
+    }
+    .menu{
+        margin-right: 110px;
+        margin-left: 100px;
+    }
+    .contacts{
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .contacts_item{
+        margin-right: 30px;
+    }
+    .main-background{
+        height: 600px;
+    }
+    .background-heading{
+        font-size: 44px;
+        width: 700px;
+    }
+    .our_team_items{
+        width: 270px;
+        height: 428px;
+    }
+    .our_team_items img{
+        width: 270px;
+        height: 260px;
+    }
+    .adress{
+        text-align: justify;
+        margin-bottom: 60px;
+    }
+    .join_us{
+        text-align: justify;
+    }
+    .footer_box{
+        justify-content: flex-start;
+        margin-left: 215px;
+    }
+    .subsciption{
+        display: none;
     }
 }
