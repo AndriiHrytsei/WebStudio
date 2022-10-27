@@ -789,28 +789,6 @@ a {
         font-size: 44px;
         width: 700px;
     }
-    .our_team_items{
-        width: 270px;
-        height: 428px;
-    }
-    .our_team_items img{
-        width: 270px;
-        height: 260px;
-    }
-    .adress{
-        text-align: justify;
-        margin-bottom: 60px;
-    }
-    .join_us{
-        text-align: justify;
-    }
-    .footer_box{
-        justify-content: flex-start;
-        margin-left: 215px;
-    }
-    .subsciption{
-        display: none;
-    }
     /* WHAT WE DO */
     .what_we_do {
         display: flex;
@@ -839,5 +817,34 @@ a {
     .what_we_do_list li {
         margin-right: 75px;
     }
+    .our_team_items{
+        width: 270px;
+        height: 428px;
+    }
+    .our_team_items img{
+        width: 270px;
+        height: 260px;
+    }
+    .clients_list_item:hover span:before{
+        color: #2196F3;
+    }
+    .clients_list_item:hover{
+        border:1px solid #2196F3;
+    }
+    .adress{
+        text-align: justify;
+        margin-bottom: 60px;
+    }
+    .join_us{
+        text-align: justify;
+    }
+    .footer_box{
+        justify-content: flex-start;
+        margin-left: 215px;
+    }
+    .subsciption{
+        display: none;
+    }
+    
 
 }
