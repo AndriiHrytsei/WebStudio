@@ -825,6 +825,9 @@ a {
         width: 270px;
         height: 260px;
     }
+    .clients_list_item{
+        width: 170px;
+    }
     .clients_list_item:hover span:before{
         color: #2196F3;
     }
