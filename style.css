@@ -223,7 +223,7 @@ a {
     .our_team_items {
         margin-bottom: 30px;
         width: 320px;
-        height: 588px;
+        height: 558px;
         background-color: #fff;
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
@@ -231,7 +231,7 @@ a {
 
     .our_team_items img {
         width: 320px;
-        height: 420px;
+        height: 390px;
     }
 
     .our_team_text1,
@@ -498,8 +498,11 @@ a {
     }
     
     footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background-color: #2F303A;
-        margin-top: 94px;
+        margin-top: 60px;
         width: 100%;
     }
     
@@ -508,7 +511,7 @@ a {
         align-content: center;
         flex-direction: row;
         flex-wrap: wrap;
-        width: 100%;
+        width: 320px;
         justify-content: center;
         
     }
@@ -721,7 +724,7 @@ a {
         padding: 0;
     }
     .info_list{
-        width: 100%;
+        width: 740px;
         margin-left: 60px;
         margin-top: 60px;
     }
@@ -737,13 +740,17 @@ a {
     }
 
     .our_team_list{
-        width: 100%;
+        width: 700px;
     }
     .clients_list{
-        width: 100%;
+        width: 768px;
     }
     .clients_list_item{
         width: 226px;
+    }
+    .footer_box{
+        width: 870px;
+        justify-content: center;
     }
     .join_us{
         margin-top: 65px;
@@ -789,6 +796,9 @@ a {
         font-size: 44px;
         width: 700px;
     }
+    .info_list{
+        width: 100%;
+    }
     /* WHAT WE DO */
     .what_we_do {
         display: flex;
@@ -817,6 +827,9 @@ a {
     .what_we_do_list li {
         margin-right: 75px;
     }
+    .our_team_list{
+        width: 100%;
+    }
     .our_team_items{
         width: 270px;
         height: 428px;
@@ -824,6 +837,9 @@ a {
     .our_team_items img{
         width: 270px;
         height: 260px;
+    }
+    .clients_list{
+        width: 100%;
     }
     .clients_list_item{
         width: 170px;
@@ -833,6 +849,9 @@ a {
     }
     .clients_list_item:hover{
         border:1px solid #2196F3;
+    }
+    footer{
+        justify-content: flex-start;
     }
     .adress{
         text-align: justify;

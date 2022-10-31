@@ -357,6 +357,9 @@ a{
         background-color: #2F303A;
         width: 100%;
         display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
     }
     
     .footer_box {
@@ -364,7 +367,7 @@ a{
         align-content: center;
         flex-direction: row;
         flex-wrap: wrap;
-        width: 100%;
+        width: 320px;
         justify-content: center;
         
     }
@@ -589,7 +592,7 @@ a{
         right: 193px;
     }
     .footer_box{
-        width: 800px;
+        width: 870px;
     }
     .join_us{
         margin-top: 65px;
@@ -617,6 +620,10 @@ a{
     }
     .table_item:last-child{
         right: 0;
+    }
+    footer{
+        justify-content: flex-start;
+        
     }
     .adress{
         text-align: justify;
