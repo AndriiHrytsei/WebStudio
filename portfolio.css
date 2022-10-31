@@ -100,6 +100,7 @@ a{
         flex-wrap: wrap;
         width: 350px;
         margin-right: 25px;
+        height: 70px;
     }
     .main_nav_item a{
         padding: 6px 22px;
