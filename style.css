@@ -35,7 +35,17 @@ a {
     margin: 0;
     padding: 0;
 }
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
 @media screen and (min-width: 320px) {
+    .container{
+        width: 320px;
+    }
     .menu {
         display: none;
     }
@@ -644,8 +654,8 @@ a {
 @media screen and (min-width: 768px){
     .container {
         display: flex;
-        width: 100%;
         justify-content: space-evenly;
+        width: 768px;
     }
     .menu{
         display: block;
@@ -765,6 +775,9 @@ a {
 }
 
 @media screen and (min-width: 1440px) {
+    .container{
+        width: 1440px;
+    }
     .web{
         color: #2196F3;
     }
