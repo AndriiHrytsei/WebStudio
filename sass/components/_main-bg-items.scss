@@ -1,26 +1,3 @@
-/* BACKGROUND */
-.main-background {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../../ws_images/background_img.png);
-    background-blend-mode: darken;
-    background-color: rgba(0, 0, 0, 0.5);
-    font-family: "Roboto";
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    width: 100%;
-    @media screen and (min-width:768px) {
-        height: 400px;
-    }
-    @media screen and (min-width:1440px) {
-        height: 600px;
-    }
-}
-
 /* BACKGROUND-HEADING */
 
 .background-heading {

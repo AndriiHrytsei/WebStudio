@@ -1,18 +1,12 @@
+.what_we_do{
+    display: none;
+}
 @media screen and (min-width:1440px) {
      /* WHAT WE DO */
      .what_we_do {
         display: flex;
         flex-direction: column;
         margin-top: 40px;
-    }
-
-    /* WHAT WE DO HEADING */
-    .what_we_do .heading {
-        text-transform: uppercase;
-        font-family: "Roboto";
-        text-align: center;
-        font-weight: 700px;
-        margin-bottom: 30px;
     }
 
     /* WHAT WE DO LIST */
@@ -22,9 +16,5 @@
         list-style: none;
         justify-content: center;
         margin-left: 50px;
-    }
-
-    .what_we_do_list li {
-        margin-right: 75px;
     }
 }

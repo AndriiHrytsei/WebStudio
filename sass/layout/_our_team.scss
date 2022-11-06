@@ -1,0 +1,27 @@
+ /* OUR TEAM */
+ .our_team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F5F4FA;
+    margin-top: 94px;
+    width: 100%;
+    background-size: cover;
+}
+.our_team_list {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    list-style: none;
+    margin-right: 15px;
+    margin-bottom: 94px;
+    flex-wrap: wrap;
+    width: 330px;
+    @media screen and (min-width:768px) {
+        width: 700px;
+    }
+    @media screen and (min-width:1440px) {
+        width: 100%;
+    }
+}

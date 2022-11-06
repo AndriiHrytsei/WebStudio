@@ -1,0 +1,24 @@
+/* INFO */
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+}
+/* INFO LIST */
+.info_list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    @media screen and (min-width:768px) {
+        width: 780px;
+        margin-top: 60px;
+    }
+    @media screen and (min-width:1440px) {
+        width: 100%;
+    }
+}
