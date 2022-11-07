@@ -657,6 +657,29 @@ body::-webkit-scrollbar {
   margin-bottom: 50px;
 }
 
+.clients_list_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid #afb1b8;
+  width: 120px;
+  height: 90px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+@media screen and (min-width: 768px) {
+  .clients_list_item {
+    width: 226px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .clients_list_item {
+    width: 226px;
+  }
+}
+
 /* OUR TEAM ICONS */
 .icon-logo-1:before {
   content: "\e900";
@@ -696,29 +719,6 @@ body::-webkit-scrollbar {
 .icon-logo-6:before {
   font-size: 50px;
   border-radius: 4px;
-}
-
-.clients_list_item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-  border: 1px solid #afb1b8;
-  width: 120px;
-  height: 90px;
-  border-radius: 4px;
-  margin-bottom: 30px;
-  margin-right: 30px;
-}
-@media screen and (min-width: 768px) {
-  .clients_list_item {
-    width: 226px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .clients_list_item {
-    width: 226px;
-  }
 }
 
 .clients_list_item:active span:before {
