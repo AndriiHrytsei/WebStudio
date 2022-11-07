@@ -8,12 +8,12 @@
 }
 
 .web {
-    color: #2196F3;
+    color: $web-color;
     font-size: 24px;
     font-family: 'Raleway', sans-serif;
     margin-top: 20px;
     @media screen and (min-width:768px) and (max-width:1439px) {
-        color: #000;
+        color: $tablet-studio-color;
     }
 }
 
@@ -24,9 +24,9 @@
 
 }
 .footer_logo .studio {
-    color: #000;
-    @media screen and (min-width:1440px) {
-        color: #fff;
+    color: #fff;
+    @media screen and (min-width:768px) and (max-width:1439px) {
+        color: $tablet-studio-color;
     }
 }
 .footer_logo{

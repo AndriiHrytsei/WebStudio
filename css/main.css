@@ -61,7 +61,7 @@ body::-webkit-scrollbar {
 .icon-menu_link {
   color: #000;
   margin-top: 25px;
-  margin-right: 25px;
+  margin-right: 35px;
 }
 @media screen and (min-width: 768px) {
   .icon-menu_link {
@@ -82,12 +82,6 @@ body::-webkit-scrollbar {
   }
   .icon-menu_link {
     display: none;
-  }
-  .web {
-    color: #000;
-  }
-  .footer_logo .studio {
-    color: #000;
   }
   .navigation {
     display: flex;
@@ -115,12 +109,6 @@ body::-webkit-scrollbar {
   }
 }
 @media screen and (min-width: 1440px) {
-  .web {
-    color: #2196F3;
-  }
-  .footer_logo .studio {
-    color: #FFFFFF;
-  }
   .menu {
     margin-left: 100px;
   }
@@ -146,7 +134,6 @@ body::-webkit-scrollbar {
   color: #212121;
   text-decoration: none;
   font-size: 15px;
-  color: #000;
   font-family: "Roboto";
 }
 
@@ -154,7 +141,6 @@ body::-webkit-scrollbar {
   line-height: 30px;
   text-decoration: none;
   font-size: 15px;
-  color: #000;
   font-family: "Roboto";
   margin-bottom: 32px;
   color: #757575;
@@ -190,11 +176,11 @@ body::-webkit-scrollbar {
 }
 
 .footer_logo .studio {
-  color: #000;
+  color: #fff;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 768px) and (max-width: 1439px) {
   .footer_logo .studio {
-    color: #fff;
+    color: #000;
   }
 }
 
@@ -211,7 +197,7 @@ body::-webkit-scrollbar {
   align-items: center;
   background-image: url(../../ws_images/background_img.png);
   background-blend-mode: darken;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5019607843);
   font-family: "Roboto";
   background-repeat: no-repeat;
   background-size: cover;
@@ -287,6 +273,7 @@ body::-webkit-scrollbar {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  margin-right: 40px;
 }
 @media screen and (min-width: 768px) {
   .info_list {
@@ -346,13 +333,6 @@ body::-webkit-scrollbar {
   border-radius: 4px;
   margin-bottom: 30px;
   padding: 20px 130px;
-}
-
-.icon-antenna-1,
-.icon-astronaut-1,
-.icon-clock-1,
-.icon-diagram-1 {
-  font-size: 60px;
 }
 
 .what_we_do {
@@ -890,7 +870,7 @@ footer {
 .subsciption input {
   width: 300px;
   height: 50px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3019607843);
   border-radius: 4px;
   background-color: transparent;
   color: rgba(255, 255, 255, 0.6);

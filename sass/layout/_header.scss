@@ -12,16 +12,16 @@ body::-webkit-scrollbar {
 
 .page-header {
     height: 80px;
-    border-bottom: 1px solid #ececee;
+    border-bottom: 1px solid $header-border;
 }
 
 
 
 
 .icon-menu_link {
-    color: #000;
+    color: $tablet-studio-color;
     margin-top: 25px;
-    margin-right: 25px;
+    margin-right: 35px;
     @media screen and (min-width: 768px){
         text-align: end;
         margin-left: 180px;
@@ -33,7 +33,7 @@ body::-webkit-scrollbar {
         display: flex;
     }
     .navitem:active{
-        color: #2196F3;
+        color: $web-color;
     }
     .contacts{
         display: flex;
@@ -42,13 +42,7 @@ body::-webkit-scrollbar {
     .icon-menu_link{
         display: none;
     }
-    .web {
-        color: #000;
-    }
-    
-    .footer_logo .studio {
-        color: #000;
-    }
+
     
     .navigation {
         display: flex;
@@ -71,36 +65,31 @@ body::-webkit-scrollbar {
         margin-right: 10px;
     }
     .contacts a:active{
-        color: #2196F3;
+        color: $web-color;
 
     }
     .contacts li:active span:before {
-        color: #2196F3;
+        color: $web-color;
     }
 }
 @media screen and (min-width:1440px) {
-    .web{
-        color: #2196F3;
-    }
-    .footer_logo .studio{
-        color: #FFFFFF;
-    }
+
     .menu{
         margin-left: 100px;
     }
     .navitem:hover{
-        color: #2196F3;
+        color: $web-color;
     }
     .contacts{
         flex-direction: row;
         justify-content: flex-end;
     }
     .contacts a:hover{
-        color: #2196F3;
+        color: $web-color;
 
     }
     .contacts li:hover span:before {
-        color: #2196F3;
+        color: $web-color;
     }
     .contacts_item{
         margin-right: 30px;
