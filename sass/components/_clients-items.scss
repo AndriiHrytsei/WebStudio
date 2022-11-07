@@ -10,7 +10,7 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    border: 1px solid #afb1b8;
+    border: 1px solid $clients-items-border-color;
     width: 120px;
     height: 90px;
     border-radius: 4px;
@@ -66,18 +66,18 @@
 }
 
 .clients_list_item:active span:before{
-    color: #2196F3;
+    color: $web-color;
 }
 .clients_list_item:active{
-    border:1px solid #2196F3;
+    border:1px solid $web-color;
 }
 
 @media screen and (min-width:1440px) {
 
     .clients_list_item:hover span:before{
-        color: #2196F3;
+        color: $web-color;
     }
     .clients_list_item:hover{
-        border:1px solid #2196F3;
+        border:1px solid $web-color;
     }
 }

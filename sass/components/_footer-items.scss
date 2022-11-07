@@ -21,14 +21,14 @@
 }
 
 .adress ul li:first-child {
-    color: #fff;
+    color: $studio-color;
     font-family: "Roboto";
 
 }
 
 .adress ul li:nth-child(2),
 .adress ul li:nth-child(3) {
-    color: #FFFFFF99;
+    color: $input-color;
     font-family: "Roboto";
 }
 
@@ -50,7 +50,7 @@
     }
 }
 .join_us h2 {
-    color: #fff;
+    color: $studio-color;
     font-family: "Roboto";
     font-size: 18px;
 }
@@ -59,13 +59,13 @@
 .join_us .SVGs_footer .icon-twitter .path1twt:before,
 .join_us .SVGs_footer .icon-facebook .path1fb:before,
 .join_us .SVGs_footer .icon-in .path1in:before {
-    color: rgba(255, 255, 255, 0.1);
+    color: $footer-svgs-color;
 }
 .join_us .SVGs_footer .icon-instagram:hover .path1inst:before,
 .join_us .SVGs_footer .icon-twitter:hover .path1twt:before,
 .join_us .SVGs_footer .icon-facebook:hover .path1fb:before,
 .join_us .SVGs_footer .icon-in:hover .path1in:before {
-    color: #2196F3;
+    color: $web-color;
 }
 
 .subsciption {
@@ -86,7 +86,7 @@
     font-family: 'Roboto';
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: $studio-color;
     font-size: 14px;
     text-align: center;
 }
@@ -94,10 +94,10 @@
 .subsciption input {
     width: 300px;
     height: 50px;
-    border: 1px solid #ffffff4d;
+    border: 1px solid $input-border-color;
     border-radius: 4px;
     background-color: transparent;
-    color: #FFFFFF99;
+    color: $input-color;
     padding-left: 16px;
     @media screen and (min-width:768px) {
         width: 450px;
@@ -107,16 +107,16 @@
 .subsciption button {
     width: 200px;
     height: 50px;
-    background: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    background: $web-color;
+    box-shadow: 0px 4px 4px $subscription-button-shadow;
     border-radius: 4px;
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
-    color: #fff;
+    color: $studio-color;
     margin-top: 20px;
     padding-bottom: 10px;
-    border: solid #2196F3;
+    border: solid $web-color;
     margin-bottom: 60px;
     text-align: center;
 }

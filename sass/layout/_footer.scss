@@ -2,7 +2,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #2F303A;
+    background-color: $footer-bg-color;
     margin-top: 60px;
     width: 100%;
     @media screen and (min-width:1440px) {

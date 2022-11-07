@@ -418,7 +418,7 @@ body::-webkit-scrollbar {
   width: 320px;
   height: 558px;
   background-color: #fff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1215686275), 0px 1px 1px rgba(0, 0, 0, 0.1411764706), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 @media screen and (min-width: 1440px) {
@@ -832,7 +832,7 @@ footer {
 .join_us .SVGs_footer .icon-twitter .path1twt:before,
 .join_us .SVGs_footer .icon-facebook .path1fb:before,
 .join_us .SVGs_footer .icon-in .path1in:before {
-  color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.1019607843);
 }
 
 .join_us .SVGs_footer .icon-instagram:hover .path1inst:before,
@@ -862,7 +862,7 @@ footer {
   font-family: "Roboto";
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #fff;
   font-size: 14px;
   text-align: center;
 }
@@ -886,7 +886,7 @@ footer {
   width: 200px;
   height: 50px;
   background: #2196F3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1490196078);
   border-radius: 4px;
   font-family: "Roboto";
   font-weight: 700;

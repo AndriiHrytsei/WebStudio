@@ -19,7 +19,7 @@
 }
 /* INFO TEXT */
 .info_text {
-    color: #757575;
+    color: $contact-item-color;
     font-family: "Roboto";
     line-height: 24px;
     text-align: center;
@@ -32,7 +32,7 @@
 
 /* INFO BACKGRROUND */
 .svg_bg {
-    background-color: #F5F4FA;
+    background-color: $info-bg-color;
     border-radius: 4px;
     margin-bottom: 30px;
     padding: 20px 130px;
