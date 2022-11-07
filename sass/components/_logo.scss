@@ -23,3 +23,13 @@
     font-family: 'Raleway', sans-serif;
 
 }
+.footer_logo .studio {
+    color: #000;
+    @media screen and (min-width:1440px) {
+        color: #fff;
+    }
+}
+.footer_logo{
+    margin-right:35px;
+    margin-top: 60px;
+}

@@ -1,0 +1,28 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2F303A;
+    margin-top: 60px;
+    width: 100%;
+    @media screen and (min-width:1440px) {
+        justify-content: flex-start;
+    }
+}
+
+.footer_box {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 320px;
+    justify-content: center;
+    @media screen and (min-width:768px) {
+        width: 870px;
+        justify-content: center;
+    }
+    @media screen and (min-width:1440px) {
+        justify-content: flex-start;
+        margin-left: 215px;
+    }
+}
