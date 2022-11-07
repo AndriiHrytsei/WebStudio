@@ -1,0 +1,83 @@
+.clients-heading {
+    font-size: 36px;
+    font-family: "Roboto";
+    margin-bottom: 50px;
+}
+
+/* OUR TEAM ICONS */
+.icon-logo-1:before {
+    content: "\e900";
+    color: #afb1b8;
+
+}
+
+.icon-logo-2:before {
+    content: "\e901";
+    color: #afb1b8;
+}
+
+.icon-logo-3:before {
+    content: "\e902";
+    color: #afb1b8;
+}
+
+.icon-logo-4:before {
+    content: "\e903";
+    color: #afb1b8;
+}
+
+.icon-logo-5:before {
+    content: "\e904";
+    color: #afb1b8;
+}
+
+.icon-logo-6:before {
+    content: "\e911";
+    color: #afb1b8;
+}
+
+.icon-logo-1:before,
+.icon-logo-2:before,
+.icon-logo-3:before,
+.icon-logo-4:before,
+.icon-logo-5:before,
+.icon-logo-6:before {
+    font-size: 50px;
+    border-radius: 4px;
+}
+
+.clients_list_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid #afb1b8;
+    width: 120px;
+    height: 90px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    @media screen and (min-width:768px) {
+        width: 226px;
+    }
+    @media screen and (min-width:768px) {
+        width: 226px;
+    }
+}
+
+.clients_list_item:active span:before{
+    color: #2196F3;
+}
+.clients_list_item:active{
+    border:1px solid #2196F3;
+}
+
+@media screen and (min-width:1440px) {
+
+    .clients_list_item:hover span:before{
+        color: #2196F3;
+    }
+    .clients_list_item:hover{
+        border:1px solid #2196F3;
+    }
+}

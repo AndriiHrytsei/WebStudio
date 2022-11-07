@@ -1,4 +1,5 @@
 @import "./base/reset";
+@import "./base/zoom";
 @import "./layout/container";
 @import "./layout/header";
 @import "./components/header-items";
@@ -10,4 +11,6 @@
 @import "./layout/whatwedo";
 @import "./components/whatwedo-items";
 @import "./layout/our_team";
-@import "./components/our_team-items"
+@import "./components/our_team-items";
+@import "./layout/clients";
+@import "./components/clients-items";
