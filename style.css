@@ -181,14 +181,7 @@
     }
 }
 
-@media screen and (min-width: 1440px) {
-    .clients_list{
-        width: 100%;
-    }
-    .clients_list_item{
-        width: 170px;
-    }
-    
+@media screen and (min-width: 1440px) {    
     footer{
         justify-content: flex-start;
     }
