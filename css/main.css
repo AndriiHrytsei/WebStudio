@@ -195,7 +195,7 @@ body::-webkit-scrollbar {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(../../ws_images/bg_img.jpg);
+  background-image: url(../../ws_images/bgimg.jpg);
   background-blend-mode: darken;
   background-color: rgba(0, 0, 0, 0.5019607843);
   font-family: "Roboto";
