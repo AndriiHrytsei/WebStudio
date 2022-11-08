@@ -279,6 +279,7 @@ body::-webkit-scrollbar {
   .info_list {
     width: 780px;
     margin-top: 60px;
+    margin-right: 0;
   }
 }
 @media screen and (min-width: 1440px) {
