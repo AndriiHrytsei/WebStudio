@@ -458,7 +458,7 @@ body::-webkit-scrollbar {
 
 .SVGs {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-top: 30px;
 }
 
