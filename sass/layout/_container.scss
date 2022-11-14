@@ -6,7 +6,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-
+    background-color: $studio-color;
     @media screen and (min-width: 768px) {
         width: 768px;
         display: flex;
